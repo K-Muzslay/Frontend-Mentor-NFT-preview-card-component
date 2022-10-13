@@ -88,7 +88,7 @@ p{
   box-shadow: 0rem 1rem .5rem 1rem hsl(217, 54%, 10%);
 }
 
-picture img{
+.picture img{
   width: 100%;
   max-height: 100%;
   object-fit: cover;
@@ -96,7 +96,7 @@ picture img{
   border-radius: 10px;
 }
 
-picture{
+.picture{
   position: relative;
 }
 
@@ -114,7 +114,7 @@ picture{
   object-fit: scale-down;
 }
 
-picture:hover .overlay{
+.picture:hover .overlay{
   z-index: 1;
   cursor: pointer;
 }
